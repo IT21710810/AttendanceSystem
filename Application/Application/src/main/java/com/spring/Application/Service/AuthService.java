@@ -1,12 +1,12 @@
 package com.spring.Application.Service;
 
-import com.spring.Application.Util.JwtUtil;  // Correct import
+import com.spring.Application.Util.JwtUtil;  
 import com.spring.Application.Model.User;
 import org.springframework.stereotype.Service;
 
 @Service
 public class AuthService {
-    private final JwtUtil jwtUtil;  // Correct class name
+    private final JwtUtil jwtUtil;  
 
     public AuthService(JwtUtil jwtUtil) {
         this.jwtUtil = jwtUtil;
